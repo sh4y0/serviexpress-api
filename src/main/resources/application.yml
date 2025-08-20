@@ -3,7 +3,7 @@ spring:
     name: serviexpress-api
   jackson:
     default-property-inclusion: NON_NULL
-    property-naming-strategy: SNAKE_CASE
+    #property-naming-strategy: SNAKE_CASE
   datasource:
     url: ${DB_HOST}
     username: ${DB_USER}
